@@ -34,7 +34,7 @@ class ReplayBuffer:
 # Don't modify the methods names and signatures, but you can add methods.
 # ENJOY!
 
-path = '../agent.pt'
+path = './qnetwork.pt'
 config = {'nb_actions': 4,
             'learning_rate': 0.001,
             'gamma':0.99,
